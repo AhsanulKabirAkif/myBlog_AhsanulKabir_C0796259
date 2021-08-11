@@ -1,0 +1,85 @@
+body {
+    background-color: #20461d;
+  }
+  @media only screen and (min-width: 600px) {
+    #container {
+        width: 100%;
+        margin-left: auto;
+        margin-right: auto;
+      }
+  }
+  
+  
+  header {
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    background-color: #f80e0e;
+    border-radius: 10px;
+    box-shadow: 12px 12px 12px #404040;
+    text-align: center;
+    color: beige;
+  }
+  header img{
+      width: 15vw;
+      height: 10vw;
+  }
+  nav {
+    font-family: Georgia, "Times New Roman", Times, serif;
+    font-size: 1.05em;
+    font-weight: bold;
+    text-align: center;
+    padding: 1px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    border-radius: 20px;
+    border-top: 5px solid #cc8c8c;
+    border-bottom: 5px solid #cc8c8c;
+  }
+  
+  section {
+    height: 60vw;
+    width: 55vw;
+    font-family: Verdana, Arial, sans-serif;
+    font-size: 1em;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    padding: 20px;
+    border-radius: 10px;
+    background-color: #a3ada4fd;
+    box-shadow: 12px 12px 12px #404040;
+    float: left;
+  }
+  table, th, td {
+    border: 1px solid black;
+  }
+  
+  section img{
+    width: 50vw;
+    height: 30vw;
+  }
+  section table{
+      width: 50vw;
+      height: 20vw;
+  }
+  aside{
+    width: 20vw;
+    height: 25vw;
+    float: right;
+    margin-top: auto;
+    margin-bottom: auto;
+
+  }
+  aside nav{
+      color: black;
+  }
+
+  
+  footer {
+    font-size: 0.7em;
+    text-align: center;
+    margin-top: 20px;
+    clear: both;
+  }
+  
